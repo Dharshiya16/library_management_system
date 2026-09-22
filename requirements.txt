@@ -113,6 +113,7 @@ gitdb @ file:///C:/Users/dev-admin/buildout/croot/gitdb_1759961742190/work
 GitPython @ file:///C:/Users/task_177866584287303/croot/gitpython_1778665914010/work
 gmpy2 @ file:///C:/miniconda3/conda-bld/gmpy2_1764748105321/work
 greenlet @ file:///C:/Users/task_177494950061405/croot/greenlet_1774949579270/work
+gunicorn==26.2.0
 h11 @ file:///C:/miniconda3/conda-bld/h11_1761931280691/work
 h5py @ file:///C:/Users/task_177790491522255/croot/h5py_1777905078631/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
