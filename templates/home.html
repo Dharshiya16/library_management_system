@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="hero">
+    <h1>Welcome to Library Management</h1>
+    <p>Explore our library services and manage everything easily.</p>
+</div>
+
+
+<div class="stats">
+
+    <div class="stat-card">
+        <h2>{{ book_count }}</h2>
+        <p>Total Books</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>{{ member_count }}</h2>
+        <p>Total Members</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>{{ reservation_count }}</h2>
+        <p>Total Reservations</p>
+    </div>
+
+</div>
+
+
+<div class="cards">
+
+    <div class="card">
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+                 alt="Library Books">
+        </div>
+
+        <h2>Books</h2>
+
+        <p>
+            Explore and manage the books available in our library.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac"
+                 alt="Library Members">
+        </div>
+
+        <h2>Members</h2>
+
+        <p>
+            View and manage registered library members.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+                 alt="Library Reservation">
+        </div>
+
+        <h2>Reservations</h2>
+
+        <p>
+            Manage book reservations and requests.
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}

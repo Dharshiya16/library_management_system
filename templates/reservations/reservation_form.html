@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="form-container">
+
+    <div class="form-header">
+        <h1>Add New Reservation</h1>
+        <p>Select a book, member and reservation status.</p>
+    </div>
+
+    <form method="post" class="book-form">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <div class="form-actions">
+
+            <a href="{% url 'reservation_list' %}" class="cancel-btn">
+                Cancel
+            </a>
+
+            <button type="submit" class="save-btn">
+                Save Reservation
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock %}
